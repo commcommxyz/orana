@@ -3,17 +3,17 @@ pragma solidity =0.5.17;
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/SafeERC20.sol";
 import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
-import "@sablier/shared-contracts/compound/CarefulMath.sol";
+import "@orana/shared-contracts/compound/CarefulMath.sol";
 
-import "./interfaces/ISablier.sol";
+import "./interfaces/IOrana.sol";
 import "./Types.sol";
 
 /**
- * @title Sablier
- * @author Sablier
+ * @title Orana
+ * @author Orana
  * @notice Money streaming.
  */
-contract Sablier is ISablier, ReentrancyGuard, CarefulMath {
+contract Orana is IOrana, ReentrancyGuard, CarefulMath {
     using SafeERC20 for IERC20;
 
     /*** Storage Properties ***/

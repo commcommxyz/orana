@@ -1,8 +1,8 @@
 pragma solidity =0.5.17;
 
 /**
- * @title Sablier Types
- * @author Sablier
+ * @title Orana Types
+ * @author Orana
  */
 library Types {
     struct Stream {
