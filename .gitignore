@@ -20,3 +20,4 @@ npm-debug.log*
 scTopics
 yarn-debug.log*
 yarn-error.log*
+.DS_Store
